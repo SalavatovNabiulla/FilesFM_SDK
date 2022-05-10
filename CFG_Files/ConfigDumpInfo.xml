@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
+	<ConfigVersions>
+		<Metadata name="CommonForm.FilesFM_Ссылка" id="3cd2235f-d3cb-4015-ac13-656b3d550523" configVersion="cd6988fb57e5bc44995230fe6a05869600000000"/>
+		<Metadata name="CommonForm.FilesFM_Ссылка.Form" id="3cd2235f-d3cb-4015-ac13-656b3d550523.0" configVersion="ac998cc37da6254fa1de71d1c09ccf6a00000000"/>
+		<Metadata name="CommonForm.FilesFM_УчетнаяЗапись" id="1ceec11e-2bf8-43f0-8924-f8cfacfa4d47" configVersion="f963979fe43df24ba88bc162a59360c800000000"/>
+		<Metadata name="CommonForm.FilesFM_УчетнаяЗапись.Form" id="1ceec11e-2bf8-43f0-8924-f8cfacfa4d47.0" configVersion="e8f42726d8966342ab1bccbf4827f78e00000000"/>
+		<Metadata name="CommonModule.FilesFM_Сервер" id="13c97b41-7510-4ae1-be33-371b7c3a3619" configVersion="6deacd549b34b24da3b04a8e199338a300000000"/>
+		<Metadata name="CommonModule.FilesFM_Сервер.Module" id="13c97b41-7510-4ae1-be33-371b7c3a3619.0" configVersion="6c01805872f249469809f519914dd4a300000000"/>
+		<Metadata name="CommonPicture.FilesFM" id="0d7160b5-4731-47fc-b621-40682d26b28b" configVersion="0aebb95166083a4abc359166c3bb661a00000000"/>
+		<Metadata name="CommonPicture.FilesFM.Picture" id="0d7160b5-4731-47fc-b621-40682d26b28b.0" configVersion="beefb89d3da93d4aa63f6abf35ab84d100000000"/>
+		<Metadata name="Configuration.Конфигурация" id="5b460c3f-291d-4496-8ea5-24e13017698e" configVersion="a160e1b6cad54a4585e471c030a70a2300000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="4b1d3e8a-9c26-4513-a0bc-ff7266030164.8" configVersion="e999cf8313a64249a3985b8754c9c3db00000000"/>
+		<Metadata name="Constant.FilesFM_Пароль" id="d41705ec-406f-462c-83a2-c89d3707fb1f" configVersion="2186c33a0c720d4eac4b1672a4b8091000000000"/>
+		<Metadata name="Constant.FilesFM_Пользователь" id="df90673f-4af2-4159-9fac-e1cef1ed5a2d" configVersion="57616ab2472e8e498bc1138a6b042a8900000000"/>
+		<Metadata name="Language.Русский" id="743bc6dd-e74a-4be7-81c1-60105eeefb78" configVersion="8bdfbd4d6f09934dac1d2f664f6a92ee00000000"/>
+		<Metadata name="Subsystem.FilesFM" id="ab433e56-9dca-4a70-9de0-dc3b5cbfff1a" configVersion="abb8485063b0894c8728c428b4f8dc5e00000000"/>
+		<Metadata name="Subsystem.FilesFM.CommandInterface" id="ab433e56-9dca-4a70-9de0-dc3b5cbfff1a.1" configVersion="0f82d631a84231468df9644b1b7897df00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

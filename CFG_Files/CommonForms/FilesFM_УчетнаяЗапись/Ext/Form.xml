@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Width>50</Width>
+	<Height>10</Height>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<AutoURL>false</AutoURL>
+	<HorizontalAlign>Center</HorizontalAlign>
+	<VerticalAlign>Center</VerticalAlign>
+	<ConversationsRepresentation>DontShow</ConversationsRepresentation>
+	<ShowTitle>false</ShowTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="9">
+			<Group>AlwaysHorizontal</Group>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<VerticalAlign>Center</VerticalAlign>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<UsualGroup name="УчетнаяЗапись" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учетная запись</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учетная запись</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="УчетнаяЗаписьРасширеннаяПодсказка" id="8"/>
+					<ChildItems>
+						<InputField name="FilesFM_Пользователь" id="1">
+							<DataPath>НаборКонстант.FilesFM_Пользователь</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Имя пользователя</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="FilesFM_ПользовательКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="FilesFM_ПользовательРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="FilesFM_Пароль" id="4">
+							<DataPath>НаборКонстант.FilesFM_Пароль</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пароль</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="FilesFM_ПарольКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="FilesFM_ПарольРасширеннаяПодсказка" id="6"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<PictureDecoration name="Декорация1" id="11">
+					<Picture>
+						<xr:Abs>Picture.png</xr:Abs>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="13"/>
+				</PictureDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<LabelDecoration name="Декорация3" id="17">
+			<Width>49</Width>
+			<Font italic="true" kind="AutoFont"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оставьте поля пустыми для того чтобы выгружать файлы без регистрации</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="Декорация3КонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="19"/>
+		</LabelDecoration>
+		<LabelDecoration name="Декорация2" id="14">
+			<Width>49</Width>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Title formatted="true">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Хотите чтобы файлы сохранялись на вашем аккаунте?
+Нажми чтобы зарегистрироваться!</v8:content>
+				</v8:item>
+			</Title>
+			<Hyperlink>true</Hyperlink>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="Декорация2КонтекстноеМеню" id="15"/>
+			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="16"/>
+			<Events>
+				<Event name="Click">Декорация2Нажатие</Event>
+			</Events>
+		</LabelDecoration>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
