@@ -170,20 +170,6 @@
 
 <hr/>
 
-<div align = "center">
-	<h1>Установка</h1>
-</div>
-
-Пошаговая инструкция для начала работы с библиотекой
-
-
-<div align = "center">
-	<img src="https://infostart.ru/upload/iblock/a5b/a5b40b43ed3d26baf8a71b97edcb5ab8.gif" alt="Project thumbnail" width = "300"/>
-</div>
-
-
-<hr/>
-
 
 <div align = "center">
 	<h1>Совместимость</h1>
