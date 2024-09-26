@@ -99,7 +99,7 @@
 <hr>
 <div align = "center">
 	<h3>Страница проекта на Infostart</h3>
-	<a href="https://infostart.ru/1c/tools/2194329/">
+	<a href="https://infostart.ru/1c/tools/1530474/">
 		<img src="https://infostart.ru/bitrix/templates/sandbox_empty/assets/tpl/abo/img/logo.svg" alt="Infostart" width="240" height="80" />
 	</a>
 </div>
